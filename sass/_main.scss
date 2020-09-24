@@ -1,0 +1,22 @@
+@import "menu";
+@import "lame";
+@import "lame1";
+@import "lame2";
+@import "lame3";
+@import "lame4";
+@import "footer";
+
+@font-face {
+  font-family: "Gotham Light Regular";
+  src: url("font/GothamLightRegular.otf");
+}
+
+@font-face {
+  font-family: "Gotham Bold Regular";
+  src: url("font/GothamBold.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

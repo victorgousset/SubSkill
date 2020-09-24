@@ -1,0 +1,63 @@
+.lame:hover {
+  cursor: pointer;
+}
+
+.lame-1 {
+  background-image: url("image/Landing.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lame-2 {
+  background-image: url("image/SlideRose.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 10px;
+}
+
+.lame-3 {
+  background-image: url("image/SlideOrange.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 10px;
+}
+
+.lame-4 {
+  background-image: url("image/SlideJaune.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 10px;
+}
+
+.lame-1-logo {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.lame-1-menu {
+  position: relative;
+  width: 40px;
+  height: 30px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.lame-1-menu:hover {
+  cursor: pointer;
+}

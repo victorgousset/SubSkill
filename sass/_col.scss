@@ -1,0 +1,31 @@
+$columns: 12!default;
+$gutter: 20px!default;
+
+%col{
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 $gutter * 0.5;
+
+  background-color: rgba(#000, 0.2);
+  border: 1px solid rgba(#000, 0.5);
+}
+
+@for $i from 1 through $columns {
+  .col-#{$i}{
+    @extend %col;
+    width: $i / 12 * 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  @for $i from 1 through $columns{
+    .col-#{$i}{
+      width: 100%;
+    }
+  }
+}
+
+.row {
+  padding-right: 100%;
+}
